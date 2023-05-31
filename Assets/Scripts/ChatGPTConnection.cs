@@ -55,14 +55,19 @@ namespace AAA.OpenAI
     //会話履歴を保持するリスト
     private readonly List<ChatGPTMessageModel> _messageList = new();
 
-    public ChatGPTConnection(string apiKey)
+    public ChatGPTConnection(string apiKey, string systemMessage="")
     {
       _apiKey = apiKey;
-      _messageList.Add(
-          new ChatGPTMessageModel() { role = "system", content = "語尾に「にゃ」をつけて" });
+      if(systemMessage !="") {
+        AddSystemMessage(systemMessage);
+      }
     }
 
-public async UniTask<ChatGPTResponseModel> RequestAsync(string userMessage)
+    public void AddSystemMessage(string message) {
+      _messageList.Add(new ChatGPTMessageModel() { role = "system", content = message });
+    }
+
+    public async UniTask<ChatGPTResponseModel> RequestAsync(string userMessage)
     {
       //文章生成AIのAPIのエンドポイントを設定
       var apiUrl = "https://api.openai.com/v1/chat/completions";

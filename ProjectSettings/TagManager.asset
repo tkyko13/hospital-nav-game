@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - Layer 1
   - Layer 2
   - Layer 3
-  - 
+  - Chara
   - 
   - 
   - 
@@ -52,4 +53,10 @@ TagManager:
     locked: 0
   - name: Character
     uniqueID: 4042910825
+    locked: 0
+  - name: CharacterItem
+    uniqueID: 2332879417
+    locked: 0
+  - name: UI
+    uniqueID: 1070382659
     locked: 0

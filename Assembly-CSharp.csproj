@@ -37,17 +37,24 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs" />
+     <Compile Include="Assets/Scripts/Player/Fukidashi.cs" />
      <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Scripts/SimpleCharacterMotor.cs" />
-     <Compile Include="Assets/Scripts/NPCChat.cs" />
-     <Compile Include="Assets/Scripts/PlayerMove.cs" />
+     <Compile Include="Assets/Scripts/Tiles/WallController.cs" />
+     <Compile Include="Assets/Scripts/Player/NPC/NPCChat.cs" />
+     <Compile Include="Assets/Scripts/Player/PlayerMove.cs" />
      <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Scripts/ProximityActivate.cs" />
      <Compile Include="Assets/UnityTechnologies/ParticlePack/TutorialInfo/Scripts/Readme.cs" />
      <Compile Include="Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs" />
      <Compile Include="Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs" />
+     <Compile Include="Assets/Scripts/Player/PlayerCollision.cs" />
      <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Scripts/AdjustTimeScale.cs" />
+     <Compile Include="Assets/Scripts/CameraController.cs" />
      <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Ramps/Runtime/RampAsset.cs" />
      <Compile Include="Assets/Scripts/ChatGPTConnection.cs" />
+     <Compile Include="Assets/Scripts/Tiles/AutoDoor.cs" />
+     <Compile Include="Assets/Scripts/Player/NPC/NPCStatus.cs" />
      <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Scripts/SimpleCameraController.cs" />
+     <Compile Include="Assets/Scripts/UI/InputPassWord.cs" />
      <Compile Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs" />
      <Compile Include="Assets/Cainos/Pixel Art Top Down - Basic/Script/LayerTrigger.cs" />
      <Compile Include="Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs" />
@@ -63,6 +70,7 @@
      <None Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Shaders/Ice.shader" />
      <None Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Shaders/Respawn.shader" />
      <None Include="Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <None Include="Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Shaders/TMP_SDF.shader" />
      <None Include="Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
