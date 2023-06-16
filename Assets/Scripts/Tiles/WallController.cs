@@ -23,7 +23,6 @@ public class WallController : MonoBehaviour
 
   public void CloseWall()
   {
-
   }
 
   private void Start()
@@ -33,7 +32,6 @@ public class WallController : MonoBehaviour
       if (inputField.text == PASSWORD)
       {
         OpenWall();
-
       }
       inputField.text = "";
     });

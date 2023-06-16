@@ -58,6 +58,7 @@
      <Compile Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs" />
      <Compile Include="Assets/Cainos/Pixel Art Top Down - Basic/Script/LayerTrigger.cs" />
      <Compile Include="Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs" />
+     <Compile Include="Assets/Scripts/Character/RandomWork.cs" />
      <None Include="Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/UnityTechnologies/ParticlePack/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
